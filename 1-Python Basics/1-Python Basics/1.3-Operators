@@ -1,0 +1,51 @@
+
+#Take two numbers from the user and perform addition, subtraction, multiplication, division, floor division, and modulus.
+n1=float(input("Enter the First number : "))
+n2=float(input("Enter the Second number : "))
+sum=n1+n2
+sub=n1-n2
+mul=n1*n2
+div=n1/n2
+fld=n1//n2
+mod=n1%n2
+print(f"The Airthmetic Operations between the two numbers are :"
+       f"\nAddition : {sum}"
+       f"\nSubtraction : {sub}"
+       f"\nMultiplication : {mul}"
+       f"\nDivision : {div}"
+       f"\nFloor Division : {fld}"
+       f"\nModulus : {mod}")
+#Output:
+Enter the First number : 2
+Enter the Second number : 3
+The Airthmetic Operations between the two numbers are :
+Addition : 5.0
+Subtraction : -1.0
+Multiplication : 6.0
+Division : 0.6666666666666666
+Floor Division : 0.0
+Modulus : 2.0
+
+# Evaluate and print the result of an expression using **, //, and %.
+a=1
+b=2
+c=3
+result=(a**b)//c%4
+print("The result : ",result)
+#Output
+The result :  0
+
+n1=int(input("Enter the First number : "))
+n2=int(input("Enter the second number : "))
+if n1>n2:
+    print(f"{n1} is the larger one.")
+elif n2>n1:
+    print(f"{n2} is the larger one.")
+elif n1==n2:
+    print(f"Both the numbers are equal")
+else:
+    print("Invalid!")
+#Output
+Enter the First number : 2
+Enter the second number : 1
+2 is the larger one.
